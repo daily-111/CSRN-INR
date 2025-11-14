@@ -1,5 +1,5 @@
-###Environment
-Our code is based on Ubuntu 20.04, pytorch 1.12.0, CUDA 11.8 (NVIDIA RTX 3090 24GB,) and python 3.10.
+# Environment
+Our code is based on PyTorch 1.12.1 and Python 3.8.20. Training is performed on an NVIDIA RTX 2080 Ti GPU.
 
-###Train
+# Train
 Before training, revise the path in config file according to your setting
