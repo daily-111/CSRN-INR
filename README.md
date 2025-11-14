@@ -6,7 +6,7 @@ Our code is based on PyTorch 1.12.1 and Python 3.8.20. Training is performed on 
 # Train
 Before training, revise the path in config file according to your setting：configs/cmsr/
 ## 1. Download Training Dataset
-
+Download from the [DIV2K official website](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 ## 2. Train Your Model
   ```bash
   python train.py --config configs/cmsr/init-div2k-x2.yaml --gpu 0
