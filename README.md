@@ -9,5 +9,5 @@ Before training, revise the path in config file according to your setting：conf
 
 ## 2. Train Your Model
   ```bash
-  python train.py --config configs/cmsr/init-div2k-x2.yaml --gpu 0 --name edsr-b_lm-liif
+  python train.py --config configs/cmsr/init-div2k-x2.yaml --gpu 0
   ```
