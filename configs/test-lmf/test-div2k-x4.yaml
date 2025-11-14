@@ -1,0 +1,19 @@
+test_dataset:
+  dataset:
+    name: image-folder
+    args:
+      #root_path: ./load/DIV2K/DIV2K_valid_HR
+      root_path: /home/junming/pytorch/超分辨率重建/遥感/RSSCN7/RSSCN7_GTmod8/x4/g
+  wrapper:
+    name: sr-implicit-downsampled
+    args:
+      scale_min: 18
+      scale_max: 18
+  batch_size: 1
+eval_type: div2k-18-pan-bam-head-bam-end-24-lmliif-RSSCN7-G
+eval_bsize: 30000
+
+data_norm:
+  inp: {sub: [0.5], div: [0.5]}
+  gt: {sub: [0.5], div: [0.5]}
+# python test.py --config configs/test-lmf/test-div2k-x4.yaml --model save/pan-bam-head-bam-end-24-lmliif-AID3K/epoch-last.pth --gpu 3
