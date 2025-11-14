@@ -1,0 +1,4 @@
+模型权重字典包含 3 个键
+  1. 键名：name                                               | （值不是张量，类型：<class 'str'>）
+  2. 键名：args                                               | （值不是张量，类型：<class 'dict'>）
+  3. 键名：sd                                                 | （值不是张量，类型：<class 'collections.OrderedDict'>）
